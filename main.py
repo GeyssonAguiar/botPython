@@ -27,7 +27,7 @@ def caps(update, context):
 #func callback #bot
 def bot(update, context):
     context.bot.send_message(chat_id=-1001417903590, text=update.message.text)
-    
+
 #funções do bot
 bot_handler = MessageHandler(filter_awesome, bot)
 dispatcher.add_handler(bot_handler)
