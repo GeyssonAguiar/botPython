@@ -16,10 +16,10 @@ bs = BeautifulSoup(web, 'lxml')
 bovespa = bs.select('.pid-17920-pcp')[0].get_text()
 
 #objeto principal
-bot = telegram.Bot('1663266180:AAF5igg_d5IOgrMS8wi1wgAYxe9QFea_E7k')
+bot = telegram.Bot('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
 
-bot.send_message(chat_id=-1001417903590, text=f'Dolar  {dolar}')
-bot.send_message(chat_id=-1001417903590, text=f'Bovespa  {bovespa}')
+bot.send_message(chat_id=xxxxxxxxxx, text=f'Dolar  {dolar}')
+bot.send_message(chat_id=xxxxxxxxxxx, text=f'Bovespa  {bovespa}')
 
 #log
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
